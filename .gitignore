@@ -1,0 +1,7 @@
+*.pyc
+*.pt
+*.pth
+*.png
+.vscode/
+*.gz
+*.pdf
