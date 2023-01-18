@@ -1,6 +1,6 @@
 # Visual Prompting for Adversarial Robustness
 
-[paper](https://arxiv.org/abs/2210.06284)
+This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
 
 # Install 
 
