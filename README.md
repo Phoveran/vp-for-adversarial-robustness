@@ -1,8 +1,18 @@
-# vp-for-adversarial-robustness
+# Visual Prompting for Adversarial Robustness
 
 [paper](https://arxiv.org/abs/2210.06284)
 
-Code structure
+# Install 
+
+`pip install -r requirements.txt`
+
+
+# Usage
+
+`python gen_prompt.py`
+
+
+# Code structure
 
 
      ./
