@@ -30,3 +30,18 @@
          evaluate_diff_pgd_steps.py # evaluate using different PGD steps
 
          losses.py # CW type loss
+
+
+# Citation
+
+
+```
+@inproceedings{
+chen2022visual,
+title={Visual Prompting for Adversarial Robustness},
+author={Aochuan Chen and Peter Lorenz and Yuguang Yao and Pin-Yu Chen and Sijia Liu},
+booktitle={Workshop on Trustworthy and Socially Responsible Machine Learning, NeurIPS 2022},
+year={2022},
+url={https://openreview.net/forum?id=c68ufJO9Xz8}
+}
+```
