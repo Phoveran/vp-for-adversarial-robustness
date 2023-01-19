@@ -2,6 +2,14 @@
 
 This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
 
+
+![overview](assets/overview.png)
+
+
+Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the prompt-free learning pipeline
+
+
+
 # Install 
 
 `pip install -r requirements.txt`
