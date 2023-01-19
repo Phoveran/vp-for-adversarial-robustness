@@ -9,14 +9,17 @@ This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxi
 
 # Usage
 
+## Train ResNet18 on CIFAR10
+
+`python cifar10_pretrain.py`
+
+## Generate the Visual Prompt
+
 `python gen_prompt.py`
 
 
 # Code structure
-
-
      ./
-
          attack/ # including all Fast-BAT & Auto Attack related attacks
 
          model/ # visual_prompt.py
