@@ -9,7 +9,10 @@
 
 # Usage
 
-`python gen_prompt.py`
+
+
+
+`python gen_prompt.py --classwise --clip --loss {losstype}`
 
 
 # Code structure

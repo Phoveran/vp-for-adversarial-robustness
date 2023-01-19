@@ -143,7 +143,7 @@ if __name__ == "__main__":
     p.add_argument('--no-cw3', action='store_false', dest='cw3')
     p.add_argument('--τ', type=float, default=0.1)
     p.add_argument('--β', type=float, default=3.)
-    args = p.parse_args()
+    args = p.parse_args()git 
 
     set_seed(args.seed)
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
