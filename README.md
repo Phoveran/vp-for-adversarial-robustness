@@ -37,8 +37,9 @@ Use only the CE loss:
 
 # Results
 
-
 ![results](assets/results.png)
+
+Figure: Sensitivity analysis of prompting regularizations in C-AVP on (CIFAR-10, ResNet18).
 
 
 # Code structure
