@@ -6,7 +6,7 @@ This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxi
 ![overview](assets/overview.png)
 
 
-Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the prompt-free learning pipeline
+Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the prompt-free learning pipeline.
 
 
 
@@ -17,14 +17,11 @@ Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the pro
 
 # Usage
 
-<<<<<<< HEAD
-
 
 
 `python gen_prompt.py --classwise --clip --loss {losstype}`
 =======
 ## Train ResNet18 on CIFAR10
->>>>>>> 8b9582e15dbc3306fb8ad55ae4c9141a7553bf17
 
 `python cifar10_pretrain.py`
 
