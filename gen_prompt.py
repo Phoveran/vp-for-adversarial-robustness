@@ -57,6 +57,7 @@ def train_once(prompt, network, train_loader, optimizer, scheduler, epoch, loss_
                         if fxs.size(0) == 2:
                             loss += cross_entropy(fxs[1, y==i, i, :], y[y==i]) # ACE
             elif loss_type == 'ce+cw':
+                #import pdb; pdb.set_trace()
                 assert fxs.size(-2) != 1
                 for i in range(fxs.size(-2)):
                     loss += cross_entropy(fxs[0, y==i, i, :], y[y==i]) # CE
@@ -143,7 +144,7 @@ if __name__ == "__main__":
     p.add_argument('--no-cw3', action='store_false', dest='cw3')
     p.add_argument('--τ', type=float, default=0.1)
     p.add_argument('--β', type=float, default=3.)
-    args = p.parse_args()git 
+    args = p.parse_args()
 
     set_seed(args.seed)
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")

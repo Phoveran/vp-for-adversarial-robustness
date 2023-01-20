@@ -19,33 +19,40 @@ Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the pro
 
 
 
-`python gen_prompt.py --classwise --clip --loss {losstype}`
-
-
 ## Train ResNet18 on CIFAR10
 
 `python cifar10_pretrain.py`
 
 ## Generate the Visual Prompt
 
+Use only the CE-CW loss:
+
 `python gen_prompt.py`
 
 
+Use only the CE loss:
+
+`python gen_prompt.py --loss ce`
+
+
+# Results
+
+
+[results](assets/result.png)
+
+
 # Code structure
-     ./
-         attack/ # including all Fast-BAT & Auto Attack related attacks
 
-         model/ # visual_prompt.py
-
-         cfg.py # author style paths
-
-         cifar10_pretrain.py # pretrain a CIFAR10 model
-
-         gen_prompt.py # generate prompt
-
-         evaluate_diff_pgd_steps.py # evaluate using different PGD steps
-
-         losses.py # CW type loss
+```
+./
+    attack/ # including all Fast-BAT & Auto Attack related attacks
+    model/ # visual_prompt.py
+    cfg.py # author style paths
+    cifar10_pretrain.py # pretrain a CIFAR10 model
+    gen_prompt.py # generate prompt
+    evaluate_diff_pgd_steps.py # evaluate using different PGD steps
+    losses.py # CW type loss
+```
 
 
 # Citation
