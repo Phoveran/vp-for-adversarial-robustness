@@ -19,6 +19,18 @@ Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the pro
 
 
 
+```
+Code structure:
+./
+    attack/ # including all Fast-BAT & Auto Attack related attacks
+    model/ # visual_prompt.py
+    cfg.py # author style paths
+    cifar10_pretrain.py # pretrain a CIFAR10 model
+    gen_prompt.py # generate prompt
+    evaluate_diff_pgd_steps.py # evaluate using different PGD steps
+    losses.py # CW type loss
+```
+
 ## Train ResNet18 on CIFAR10
 
 `python cifar10_pretrain.py`
@@ -35,6 +47,9 @@ Use only the CE loss:
 `python gen_prompt.py --loss ce`
 
 
+
+
+
 # Results
 
 ![results](assets/results.png)
@@ -42,18 +57,7 @@ Use only the CE loss:
 Figure: Sensitivity analysis of prompting regularizations in C-AVP on (CIFAR-10, ResNet18).
 
 
-# Code structure
 
-```
-./
-    attack/ # including all Fast-BAT & Auto Attack related attacks
-    model/ # visual_prompt.py
-    cfg.py # author style paths
-    cifar10_pretrain.py # pretrain a CIFAR10 model
-    gen_prompt.py # generate prompt
-    evaluate_diff_pgd_steps.py # evaluate using different PGD steps
-    losses.py # CW type loss
-```
 
 
 # Citation
