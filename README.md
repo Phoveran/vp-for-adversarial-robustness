@@ -38,7 +38,7 @@ Use only the CE loss:
 # Results
 
 
-![results](assets/result.png)
+![results](assets/results.png)
 
 
 # Code structure
