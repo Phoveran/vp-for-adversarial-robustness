@@ -18,9 +18,9 @@ Figure: Overview of C-AVP over two classes (red and green) vs. U-AVP and the pro
 # Usage
 
 
-
 `python gen_prompt.py --classwise --clip --loss {losstype}`
-=======
+
+
 ## Train ResNet18 on CIFAR10
 
 `python cifar10_pretrain.py`
