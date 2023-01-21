@@ -32,22 +32,15 @@ Code structure:
 ```
 
 ## Train ResNet18 on CIFAR10
-
 `python cifar10_pretrain.py`
 
 ## Generate the Visual Prompt
 
 Use only the CE-CW loss:
+`python gen_prompt.py --classwise`
 
-`python gen_prompt.py`
-
-
-Use only the CE loss:
-
-`python gen_prompt.py --loss ce`
-
-
-
+## Evaluate on different attack strength
+`python evaluate_diff_pgd_steps.py `
 
 
 # Results
@@ -55,8 +48,6 @@ Use only the CE loss:
 ![results](assets/results.png)
 
 Figure: Sensitivity analysis of prompting regularizations in C-AVP on (CIFAR-10, ResNet18).
-
-
 
 
 
