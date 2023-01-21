@@ -1,6 +1,6 @@
 # Visual Prompting for Adversarial Robustness
 
-This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
+This is the official code and belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
 For questions to the code, write an email to [chenaoch@msu.edu](mailto:chenaoch@msu.edu) or [peter.lorenz@itwm.fhg.de](mailto:peter.lorenz@itwm.fhg.de). Or even better open an issue on github so that everybody can see. 
 
 ![overview](assets/overview.png)
