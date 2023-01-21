@@ -1,7 +1,7 @@
 # Visual Prompting for Adversarial Robustness
 
-This code belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
-
+This is the official code and belongs to this paper: [https://arxiv.org/abs/2210.06284](https://arxiv.org/abs/2210.06284)
+For questions to the code, write an email to [chenaoch@msu.edu](mailto:chenaoch@msu.edu) or [peter.lorenz@itwm.fhg.de](mailto:peter.lorenz@itwm.fhg.de). Or even better open an issue on github so that everybody can see. 
 
 ![overview](assets/overview.png)
 
@@ -32,7 +32,6 @@ Code structure:
 ```
 
 ## Train ResNet18 on CIFAR10
-
 `python cifar10_pretrain.py`
 
 ## Generate the Visual Prompt
@@ -42,13 +41,15 @@ Generate the class-wise prompt as proposed in the paper:
 `python gen_prompt.py --loss ce-cw --classwise`
 
 
-Use only the CE loss:
-
-`python gen_prompt.py --loss ce --classwise`
 
 
 ## Evaluate on different PGD strength
+Use  the proposed CE-CW loss:
 
+`python gen_prompt.py --classwise`
+
+## Evaluate on different attack strength
+`python evaluate_diff_pgd_steps.py `
 
 `python evaluate_diff_pgd_steps.py`
 
@@ -57,8 +58,6 @@ Use only the CE loss:
 ![results](assets/results.png)
 
 Figure: Sensitivity analysis of prompting regularizations in C-AVP on (CIFAR-10, ResNet18).
-
-
 
 
 
