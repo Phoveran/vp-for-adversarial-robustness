@@ -41,17 +41,10 @@ Generate the class-wise prompt as proposed in the paper:
 `python gen_prompt.py --loss ce-cw --classwise`
 
 
-
-
-## Evaluate on different PGD strength
-Use  the proposed CE-CW loss:
-
-`python gen_prompt.py --classwise`
-
 ## Evaluate on different attack strength
 `python evaluate_diff_pgd_steps.py `
 
-`python evaluate_diff_pgd_steps.py`
+
 
 # Results
 
