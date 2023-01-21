@@ -37,18 +37,20 @@ Code structure:
 
 ## Generate the Visual Prompt
 
-Use only the CE-CW loss:
+Generate the class-wise prompt as proposed in the paper: 
 
-`python gen_prompt.py`
+`python gen_prompt.py --loss ce-cw --classwise`
 
 
 Use only the CE loss:
 
-`python gen_prompt.py --loss ce`
+`python gen_prompt.py --loss ce --classwise`
 
 
+## Evaluate on different PGD strength
 
 
+`python evaluate_diff_pgd_steps.py`
 
 # Results
 
