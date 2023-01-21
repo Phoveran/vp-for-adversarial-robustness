@@ -36,7 +36,8 @@ Code structure:
 
 ## Generate the Visual Prompt
 
-Use only the CE-CW loss:
+Use  the proposed CE-CW loss:
+
 `python gen_prompt.py --classwise`
 
 ## Evaluate on different attack strength
