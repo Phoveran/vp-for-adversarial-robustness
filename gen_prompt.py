@@ -57,6 +57,7 @@ def train_once(prompt, network, train_loader, optimizer, scheduler, epoch, loss_
                         if fxs.size(0) == 2:
                             loss += cross_entropy(fxs[1, y==i, i, :], y[y==i]) # ACE
             elif loss_type == 'ce+cw':
+                #import pdb; pdb.set_trace()
                 assert fxs.size(-2) != 1
                 for i in range(fxs.size(-2)):
                     loss += cross_entropy(fxs[0, y==i, i, :], y[y==i]) # CE
