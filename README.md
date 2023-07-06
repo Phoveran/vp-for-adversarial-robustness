@@ -58,12 +58,13 @@ Figure: Sensitivity analysis of prompting regularizations in C-AVP on (CIFAR-10,
 
 
 ```
-@inproceedings{
-chen2022visual,
-title={Visual Prompting for Adversarial Robustness},
-author={Aochuan Chen and Peter Lorenz and Yuguang Yao and Pin-Yu Chen and Sijia Liu},
-booktitle={Workshop on Trustworthy and Socially Responsible Machine Learning, NeurIPS 2022},
-year={2022},
-url={https://openreview.net/forum?id=c68ufJO9Xz8}
-}
+@INPROCEEDINGS{10097245,
+  author={Chen, Aochuan and Lorenz, Peter and Yao, Yuguang and Chen, Pin-Yu and Liu, Sijia},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Visual Prompting for Adversarial Robustness}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSP49357.2023.10097245}}
 ```
